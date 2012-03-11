@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="Author" content="Tencent.Jetyu" />
+	<title>Tencent Alloy Team 2012</title>
+	<style>
+		html{ margin:0; padding:0; }
+		body{
+			font-family:'Segoe UI Light','Segoe UI',Arial,'微软雅黑',sans-serif;
+			font-size: 20px;
+			color:#333333;
+		}
+		.title{
+			font-size: 50px;
+			text-align:center;
+			color:#666666;
+			margin:50px 0 0 0;
+			
+		}
+		.logo{
+			display:block;
+			margin:20px auto;
+			width:92px;
+			height:101px;
+			
+			overflow:hidden;
+		}
+		
+		.breath {
+    text-indent:-999em;
+    height:4px;
+    line-height: 4px;
+    width: 50px;
+    overflow:hidden;
+
+    margin: 10px auto;
+    background: #f1f1f1;
+
+-webkit-box-shadow: 0 0 5px #f1f1f1;
+    -moz-box-shadow: 0 0 5px #f1f1f1;
+    -ms-box-shadow: 0 0 5px #f1f1f1;
+    -o-box-shadow: 0 0 5px #f1f1f1;
+    box-shadow: 0 0 5px #f1f1f1;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+    color: #fff;
+
+    -webkit-animation-name: breath;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'breath' {
+        from {
+                background-color: #fff;
+                -webkit-box-shadow:0 0 3px #ddd;
+                -moz-box-shadow: 0 0 3px #f1f1f1;
+    -ms-box-shadow: 0 0 5px #f1f1f1;
+    -o-box-shadow: 0 0 5px #f1f1f1;
+    box-shadow: 0 0 3px #ddd;
+        }
+	50% {
+                background-color: #C7FF0F;
+                -webkit-box-shadow: 0 0 10px #C7FF0F;
+                -moz-box-shadow: 0 0 5px #B7F20F;
+    -ms-box-shadow: 0 0 5px #B7F20F;
+    -o-box-shadow: 0 0 5px #B7F20F;
+    box-shadow: 0 0 5px #C7FF0F;
+        }
+	to {
+                background-color: #fff;
+                -webkit-box-shadow:0 0 5px #ddd;
+                -moz-box-shadow: 0 0 5px #f1f1f1;
+    -ms-box-shadow: 0 0 5px #f1f1f1;
+    -o-box-shadow: 0 0 5px #f1f1f1;
+    box-shadow: 0 0 5px #ddd;
+        }
+}
+
+		.workListBoard{
+			width:300px;
+			min-height:300px;
+			margin:0 auto;
+			
+		}
+		.workListBoard h3{
+			font-size: 30px;
+			font-weight: normal;
+			text-align:center;
+			color:#999999;
+
+		}
+		ul.workList{
+			
+			padding:0;
+		}
+		.workList li{
+			
+			font-size: 20px;
+			text-align:center;
+			list-style:none;
+			
+		}
+		
+
+		.workList a:link,
+		.workList a:visited,
+		.workList a:active{
+			display:block;
+			color:#5FB7E9;
+			text-decoration:none;
+			line-height:36px;
+			height:36px;
+
+			-webkit-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms, font-size 200ms ease-in 0ms;
+			-moz-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms, font-size 200ms ease-in 0ms;
+			-ms-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms, font-size 200ms ease-in 0ms;
+			-o-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms, font-size 200ms ease-in 0ms;
+			transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms, font-size 200ms ease-in 0ms;
+			
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			
+
+
+		}
+		
+		
+		.workList a:hover,
+		.workList a:focus{
+			outline:none;	
+			color:white;
+			font-size: 22px;
+			background:#BBD631;
+			-webkit-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms, font-size 150ms ease-in 0ms;
+			-moz-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms, font-size 150ms ease-in 0ms;
+			-ms-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms, font-size 150ms ease-in 0ms;
+			-o-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms, font-size 150ms ease-in 0ms;
+			transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms, font-size 150ms ease-in 0ms;
+		}
+		.footer{
+			margin:50px 0 0 0;
+			height:50px;
+			color:#999999;
+			font-family:Tahoma;
+			font-size: 12px;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<div class="title">Tencent Alloy Team 2012</div>
+	<img class="logo" src="./images/alloy.png" />
+	<div class="breath" title="我们一直都在与你一起力努力^_-">light</div>
+	<div class="workListBoard">
+		<h3>Works List</h3>
+		<ul class="workList">
+			<li><a target="_blank" href="http://github.com/alloyos/jx/">JX(Javascript eXtension)</a></li>
+			<li><a target="_blank" href="http://qwt.oa.com/css3lib">CSS3 Alloy Lib</a></li>
+			<li><a target="_blank" href="https://chrome.google.com/webstore/detail/omofllbfhlganmbmnnkneakndffbgkci">CSS Viewer</a></li>
+			<li><a target="_blank" href="https://chrome.google.com/webstore/detail/emajkockhmibmpnkbohiipfidkifdjhp">CSS Catcher</a></li>
+			<li><a target="_blank" href="https://github.com/iptton/Rythem/">Rythem</a></li>
+			<li><a target="_blank" href="http://github.com/hongru/laro/">Laro(游戏引擎)</a></li>
+			<li><a target="_blank" href="http://www.webpluz.org/">Qplus Web Team Blog</a></li>
+			<li><a target="_blank" href="http://webpluz.org/about/">About</a></li>
+		</ul>
+	</div>
+	<div class="footer">Copyright &copy; 1998 - <script>document.write(new Date().getFullYear());</script> Tencent. All Rights Reserved.</div>
+</html>
