@@ -12,7 +12,7 @@ One Team, One Dream! 多年以后，让我们创造一个奇迹！
 
 ## 版权声明标准代码
 
-  	<div class="footer">Copyright &copy; 1998 - <script>document.write(new Date().getFullYear());</script> Tencent. All Rights Reserved.</div>
+  	<div class="footer">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Tencent AlloyTeam. All Rights Reserved.</div>
 
 
 ## 访问统计标准代码
