@@ -1,7 +1,8 @@
-Tencent Alloy Team
-==================
+Tencent AlloyTeam
+=================
 One Team, One Dream! 多年以后，让我们创造一个奇迹！
 
+By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 
 ## 我们的愿景
 
