@@ -9,12 +9,16 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 成为业界卓越的Web团队！
 
 
-## 标准代码
+## 标准html5代码
+
 	<!DOCTYPE html>
 	<html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="Author" content="Tencent.Jetyu" />
+		<meta name="author" content="Tencent.AlloyTeam.Jetyu" />
+		<meta name="revised" content="Jetyu, 2012/03/10" />
+		<meta name="revised" content="Azrael, 2012/03/13" />
+		<meta name="copyright" content="Tencent.AlloyTeam" />
 		<title>Tencent AlloyTeam 标准文档</title>
 		<link href="./style/main.css" rel="stylesheet" type="text/css" />
 	</head>
@@ -37,12 +41,20 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	</html>
 
 
-## 版权声明标准代码
+## 标准javascript代码
+
+	整理中
+
+## 标准css代码
+
+	整理中
+
+## 标准版权声明代码
 
   	<div class="footer">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Tencent AlloyTeam. All Rights Reserved.</div>
 
 
-## 访问统计标准代码
+## 标准访问统计代码
 
 	<!--Tencent Analytics-->
 	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=8957212" charset="UTF-8"></script>
