@@ -9,6 +9,32 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 成为业界卓越的Web团队！
 
 
+## 标准代码
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Author" content="Tencent.Jetyu" />
+		<title>Tencent AlloyTeam 标准文档</title>
+		<link href="./style/main.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<h1 id="title" class="title">Tencent AlloyTeam 标准文档</h1>
+		<div>
+			<h3>Title</h3>
+			<p>
+				标准文档
+			</p>
+		</div>
+
+		<script type="text/javascript" src="./js/jx.min.js"></script>
+		<script type="text/javascript">
+
+		  var J = new Jx();
+
+		</script>
+	</body>
+	</html>
 
 
 ## 版权声明标准代码
@@ -22,6 +48,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=8957212" charset="UTF-8"></script>
 	<!--Google Analytics-->
 	<script type="text/javascript">
+
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-393149-9']);
 	  _gaq.push(['_trackPageview']);
@@ -31,4 +58,5 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
+
 	</script>
