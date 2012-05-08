@@ -21,6 +21,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 		<link href="./style/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
+		<!-- 注释 -->
 		<h1 id="title" class="title">Tencent AlloyTeam 标准文档</h1>
 		<div>
 			<h3>Title</h3>
@@ -41,15 +42,62 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 
 ## 标准javascript代码
 
-	整理中
+	/**
+	 * == Javascript eXtension 模块 =========================================================================
+	 * Copyright (c) 2012 Tencent AlloyTeam, All rights reserved.
+	 * http://www.AlloyTeam.com/
+	 * Code licensed under the BSD License:
+ 	 * http://www.AlloyTeam.com/license.txt
+	 * 
+	 * @version 2.0
+	 * @author	Kinvix(<a href="mailto:Kinvix@gmail.com">Kinvix@gmail.com</a>)
+	 * @description 描述文字
+	 * -------------------------------------------------------------- 2009.11.17 ----------------------------
+	 */
+
+	/**
+	 * 注释
+	 */
+	Jx().$package("tencent.alloyteam", function(J){
+		var packageContext = this,
+			$D = J.dom,
+			$E = J.event,
+			$H = J.http;
+
+		// 输出字符串：Hello world!
+		J.out("Hello world!");
+
+		// 输出this === tencent.alloyteam的判断结果
+		J.out(this === tencent.alloyteam);
+	});
+
 
 ## 标准css代码
+	
+	.copyright{
+		margin:50px 0 0 0;
+		height:50px;
+		color:#999999;
+		font-family:Tahoma;
+		font-size: 12px;
+		text-align:center;
+	}
 
-	整理中
+	.copyright a{
+		color:#999999;
+		text-decoration:none;
+	}
+
+	/* 注释 */
+	.copyright a:hover,
+	.copyright a:focus{
+		outline:none;
+		text-decoration:underline;
+	}
 
 ## 标准版权声明代码
 
-  	<div class="footer">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Tencent AlloyTeam. All Rights Reserved.</div>
+  	<div>Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/">Tencent AlloyTeam</a>. All Rights Reserved.</div>
 
 
 ## 标准访问统计代码

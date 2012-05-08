@@ -127,11 +127,23 @@ ul.workList{
 	-o-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
 	transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
 }
-.footer{
+
+.copyright{
 	margin:50px 0 0 0;
 	height:50px;
 	color:#999999;
 	font-family:Tahoma;
 	font-size: 12px;
 	text-align:center;
+}
+
+.copyright a{
+	color:#999999;
+	text-decoration:none;
+}
+
+.copyright a:hover,
+.copyright a:focus{
+	outline:none;
+	text-decoration:underline;
 }
