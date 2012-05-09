@@ -35,9 +35,8 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
  	 ...
 	  
 	  
-	  
-	  
-	  
+ps：文件名全部英文小写，尽量不要加复数s
+
 	  
 	  
 ### 标准html5代码
