@@ -31,6 +31,8 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	 |   |-- [styleNameC]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
  	 |-- index.html		//index文件
+ 	 |-- page1.html		//其他页面
+ 	 ...
 	  
 	  
 	  
