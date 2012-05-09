@@ -16,20 +16,21 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 
 ### 标准文件结构
 
-	[js]
-	  |-- main.js
-	[style]
-	  |-- [image]
-	      |-- img1.png
-	      ...
-	  |-- [styleNameA]
-	      |-- [image]
-	      |-- main.css
-	    	...
-	  |-- [styleNameB]
-	  |-- [styleNameC]
-	  |-- main.css
-	index.html
+	[mainfolder]
+	 |--[js]		//js文件夹
+	 |   |-- main.js
+	 |--[style]		//所有样式相关的css和image
+	 |   |-- [image]	//主要image文件夹
+	 |   |    |-- img1.png
+	 |   |    ...
+	 |   |-- [styleNameA]	//皮肤A的文件夹
+	 |   |    |-- [image]	//皮肤A的image
+	 |   |    |-- styleNameA.css	//皮肤A的css文件
+	 |   |    ...
+	 |   |-- [styleNameB]	//皮肤B的文件夹
+	 |   |-- [styleNameC]	//皮肤C的文件夹
+	 |   |-- main.css	//主要css文件
+ 	 |-- index.html		//index文件
 	  
 	  
 	  
