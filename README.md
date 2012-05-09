@@ -9,7 +9,10 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 成为业界卓越的Web团队！
 
 
-## 标准html5代码
+## 团队部分代码规范
+
+
+# 标准html5代码
 
 	<!DOCTYPE html>
 	<html>
@@ -40,7 +43,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	</html>
 
 
-## 标准javascript代码
+# 标准javascript代码
 
 	/**
 	 * == Javascript eXtension 模块 =========================================================================
@@ -72,7 +75,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	});
 
 
-## 标准css代码
+# 标准css代码
 	
 	.copyright{
 		margin:50px 0 0 0;
@@ -95,12 +98,12 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 		text-decoration:underline;
 	}
 
-## 标准版权声明代码
+# 标准版权声明代码
 
   	<div>Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/">Tencent AlloyTeam</a>. All Rights Reserved.</div>
 
 
-## 标准访问统计代码
+# 标准访问统计代码
 
 	<!--Tencent Analytics-->
 	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=8957212" charset="UTF-8"></script>
