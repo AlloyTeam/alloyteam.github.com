@@ -13,6 +13,30 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 虽然这些细节是小事，但是却体现了一个coder的专业程度。
 
 
+
+### 标准文件结构
+
+	[js]
+	  |-- main.js
+	[style]
+	  |-- [image]
+	      |-- img1.png
+	      ...
+	  |-- [styleNameA]
+	      |-- [image]
+	      |-- main.css
+	    	...
+	  |-- [styleNameB]
+	  |-- [styleNameC]
+	  |-- main.css
+	index.html
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 ### 标准html5代码
 
 	<!DOCTYPE html>
