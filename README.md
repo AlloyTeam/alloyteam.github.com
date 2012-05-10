@@ -31,11 +31,12 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 	 |   |-- [styleNameC]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
  	 |-- index.html		//index文件
+ 	 |-- page1.html		//其他页面
+ 	 ...
 	  
 	  
-	  
-	  
-	  
+ps：文件名全部英文小写，尽量不要加复数s，必要时可以使用下划线“_”。
+
 	  
 	  
 ### 标准html5代码
@@ -127,7 +128,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 
 ### 标准版权声明代码
 
-  	<div>Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/">Tencent AlloyTeam</a>. All Rights Reserved.</div>
+  	<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">Tencent AlloyTeam</a>. All Rights Reserved.</div>
 
 
 ### 标准访问统计代码
