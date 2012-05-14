@@ -7,22 +7,82 @@ body{
 	color:#333333;
 	background: #DDD url(./image/alloy_bg.jpg) repeat-y fixed top center;
 }
+
+
+
+
 .alloyteam{
 	position: absolute;
 	left:50%;
 	top:50%;
+	width:720px;
 	margin: -150px 0 0 -360px;
 	font-family:'Vrinda','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
-	font-size: 180px;
+	font-size: 160px;
 	font-weight:normal;
 	text-align:center;
-	color:#524db0;
-	text-shadow:#666 1px 1px 8px;
+}
+.alloyteam1{
+    color:white;
+    text-shadow:1px 2px 9px #333;
+}
+.alloyteam2{
+    cursor: default;
+    color:#b1b1b1;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.1)), color-stop(40%,rgba(0,0,0,.0)), color-stop(100%,rgba(0,0,0,1)));;
+}
 
-	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 128, 0, 1)), to(rgba(51, 51, 51, 1)));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 
+
+
+
+.alloyteam3{
+	color:white;
+	text-shadow: 0 1px 0 #ccc,
+				0 2px 0 #c9c9c9,
+				0 3px 0 #bbb,
+				0 4px 0 #b9b9b9,
+				0 5px 0 #aaa,
+				0 6px 1px rgba(0,0,0,.1),
+				0 0 5px rgba(0,0,0,.1),
+				0 1px 3px rgba(0,0,0,.3),
+				0 3px 5px rgba(0,0,0,.2),
+				0 5px 10px rgba(0,0,0,.25),
+				0 10px 10px rgba(0,0,0,.2),
+				0 20px 20px rgba(0,0,0,.15);
+}
+
+.alloyteam4 {
+	color:white;
+	text-shadow: 0 0 5px #fff, 
+				0 0 10px #fff, 
+				0 0 15px #fff, 
+				0 0 40px blue, 
+				0 0 70px blue;
+}
+
+.alloyteam5 {
+	color:#3c3fac;
+	color:#3c56ac;
+	text-shadow:1px 2px 9px #666;
+}
+
+.alloyteam::selection, .alloyteam::-moz-selection, .alloyteam::-webkit-selection {
+	background:#2d7e99;
+	color:#fff;
+}
+
+
+
+.ps{
+	position: absolute;
+	left:50%;
+	top:50%;
+	width:300px;
+	height:50px;
+	margin: 100px 0 0 -360px;
+	
+	background-color: rgba(238,238,238,0.3);
 }
 
 .copyright{
