@@ -12,7 +12,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 ## 团队部分代码规范
 虽然这些细节是小事，但是却体现了一个coder的专业程度。
 更多详细情况请看：
-alloyteam.github.com/DevelopmentCodes.doc
+https://alloyteam.github.com/DevelopmentCodes.doc
 
 
 ### 标准文件结构
