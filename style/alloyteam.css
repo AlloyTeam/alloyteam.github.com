@@ -5,7 +5,7 @@ body{
 	font-family:'Open Sans','Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
 	color:#333333;
-	background: #DDD url(./image/alloy_bg.jpg) repeat-y fixed top center;
+	background: #DDD url(./image/bg.png) repeat-y fixed top center;
 }
 
 
@@ -14,17 +14,65 @@ body{
 .alloyteam{
 	position: absolute;
 	left:50%;
-	top:50%;
-	width:720px;
-	margin: -150px 0 0 -360px;
+	top:0%;
+	width:150px;
+	margin: 0px 0 0 -360px;
 	font-family:'Vrinda','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
-	font-size: 160px;
+	font-size: 30px;
 	font-weight:normal;
-	text-align:center;
+	text-align:left;
+
+	text-shadow:0px 1px 3px #333;
+
+	-webkit-animation-name: logoAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+
+
 }
+@-webkit-keyframes 'logoAnimation' {
+	from {
+		font-size: 160px;
+		width:720px;
+		top:50%;
+		margin-top:-150px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		font-size: 160px;
+		width:720px;
+		top:50%;
+		margin-top:-150px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity= 1 1);
+	}
+	80% {
+		font-size: 160px;
+		width:720px;
+		top:50%;
+		margin-top:-150px;
+		text-shadow:1px 2px 9px #333;
+	}
+	to {
+		font-size: 30px;
+		width:150px;
+		top:0%;
+		margin-top:0px;
+		text-shadow:0px 1px 3px #333;
+	}
+}
+
+
+
 .alloyteam1{
     color:white;
-    text-shadow:1px 2px 9px #333;
+    
 }
 .alloyteam2{
     cursor: default;
@@ -71,6 +119,8 @@ body{
 	background:#2d7e99;
 	color:#fff;
 }
+
+
 
 
 

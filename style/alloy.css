@@ -5,24 +5,268 @@ body{
 	font-family:'Segoe UI Light','Segoe UI','Segoe UI WP','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
 	color:#333333;
-	background: #DDD url(./image/bg.png) no-repeat fixed center center;
+	/**/
+	background: #DDD url(./image/alloy_bg.jpg) no-repeat fixed center center;
 	background-size: cover;
 }
+
+
+.animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+.animated.hinge {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+@-webkit-keyframes tada {
+	0% {-webkit-transform: scale(1);}	
+	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+	100% {-webkit-transform: scale(1) rotate(0);}
+}
+
+@-moz-keyframes tada {
+	0% {-moz-transform: scale(1);}	
+	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
+	100% {-moz-transform: scale(1) rotate(0);}
+}
+
+@-ms-keyframes tada {
+	0% {-ms-transform: scale(1);}	
+	10%, 20% {-ms-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-ms-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-ms-transform: scale(1.1) rotate(-3deg);}
+	100% {-ms-transform: scale(1) rotate(0);}
+}
+
+@-o-keyframes tada {
+	0% {-o-transform: scale(1);}	
+	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
+	100% {-o-transform: scale(1) rotate(0);}
+}
+
+@keyframes tada {
+	0% {transform: scale(1);}	
+	10%, 20% {transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+	100% {transform: scale(1) rotate(0);}
+}
+
+.tada:hover {
+	-webkit-animation-name: tada;
+	-moz-animation-name: tada;
+	-ms-animation-name: tada;
+	-o-animation-name: tada;
+	animation-name: tada;
+}
+
+
+
 .hidden{
 	display: none;
 }
 .main{
 	margin: auto;
+
 	width:1000px;
 	overflow: hidden;
 
+	-webkit-animation-name: mainAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+
 }
+@-webkit-keyframes 'mainAnimation' {
+	from {
+		
+		margin-top:70%;
+		width:1000px;
+		overflow: hidden;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		margin-top:70%;
+
+	}
+	80% {
+		margin-top:70%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	to {
+		margin-top:0%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+}
+
+
+
 .alloyLogo{
 	display: block;
 	float: left;
-
+	margin:10px 0 0 0;
 	height:50px;
 }
+
+
+.alloyteam{
+	
+	position: absolute;
+	
+	font-family:'Vrinda','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+	font-weight:normal;
+	font-size: 50px;
+
+	left:50%;
+	top:0%;
+	margin:0px 0 0 -440px;
+	text-shadow:0px 1px 3px #333;
+
+
+	-webkit-animation-name: logoAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+
+
+}
+@-webkit-keyframes 'logoAnimation' {
+	from {
+
+		left:50%;
+		font-size: 160px;
+		width:720px;
+		top:50%;
+		margin: -150px 0 0 -360px;
+
+		text-shadow:1px 2px 9px #333;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		font-size: 160px;
+		width:720px;
+		left:50%;
+		top:50%;
+		margin: -150px 0 0 -360px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	80% {
+		font-size: 160px;
+		width:720px;
+		left:50%;
+		top:50%;
+		margin: -150px 0 0 -360px;
+		text-shadow:1px 2px 9px #333;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	to {
+	
+		font-size: 50px;
+
+		left:50%;
+		top:0%;
+		margin:0px 0 0 -440px;
+		text-shadow:0px 1px 3px #333;
+	}
+}
+
+
+
+.alloyteam1{
+    color:white;
+    
+}
+.alloyteam2,
+.alloyteam2 a{
+
+    color:#666;
+    text-decoration:none;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.1)), color-stop(40%,rgba(0,0,0,.0)), color-stop(100%,rgba(0,0,0,1)));;
+}
+
+
+
+.tencentInfo{
+	position: absolute;
+	left:50%;
+	top:50%;
+	width:680px;
+	height:50px;
+	margin: 100px 0 0 -360px;
+	text-align:center;
+
+
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+	-webkit-animation-name: tencentInfoAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes 'tencentInfoAnimation' {
+	from {
+		top:60%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+	}
+	50% {
+		top:50%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	80% {
+		top:50%;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter:alpha(opacity=1);
+	}
+	to {
+		top:100%;
+		opacity: 0;
+		-moz-opacity: 0;
+		filter:alpha(opacity=0);
+		display: none;
+	}
+}
+
+
 .nav{
 
 	clear:left;
@@ -31,7 +275,7 @@ body{
 	padding:0px;
 	font-size: 28px;
 	text-align:left;
-	text-shadow:0 0 2px #aaa;
+	
 }
 .nav li{
 	float:left;
@@ -42,15 +286,42 @@ body{
 .nav li a{
 	margin:0px 5px 0 0;
 	padding:5px 10px;
-
+	text-shadow:0 0 2px #aaa;
 	color:#999;
 	text-decoration:none;
 
 }
+
+
+
+
 .nav li a:hover{
-	color:#333;
+	
 	text-shadow:0 0 2px #666;
+		color:#333;
+
+	-webkit-animation-name: navAnimation;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
 }
+
+
+	
+}
+@-webkit-keyframes 'navAnimation' {
+	from {
+		text-shadow:0 0 2px #aaa;
+		color:#999;
+	
+	}
+	to {
+		text-shadow:0 0 2px #666;
+		color:#333;
+	}
+}
+
+
 .nav2{
 	font-family:'Microsoft Yi Baiti';
 	color:#666666;
@@ -71,21 +342,147 @@ body{
 	font-size: 20px;
 	text-align:center;
 	color:#666666;
-	margin:50px 0 0 0;
+	margin:20px 0 20px 0;
 	text-shadow:0 0 1px #aaa;
 }
 
 .menu{
-	
+	float: left;
+	width:720px;
+	line-height:1.8;
+	padding: 0;
 }
 .menu li{
-	float: left;
-	clear: left;
-	margin: 0 0 1px 0;
-	width:400px;
-	height:80px;
-	background:rgba(240,240,240,0.5);
+	display: block;
+	list-style:none;
+	margin: 0 0 3px 0;
+	padding: 15px;
+	
+	
+	background:rgba(255,255,255,0.7);
 
+}
+
+
+
+.avatar{
+	float: left;
+	width:50px;
+	height:50px;
+	overflow: hidden;
+	border:1px solid #333;
+}
+
+a.blogTitle{
+	float:left;
+	color: #000;
+	font-size:26px;
+	text-decoration:none;
+	padding:0 0px 0 10px;
+	width:620px;
+	height:30px;
+
+	line-height:30px;
+	overflow: hidden;
+}
+a.blogTitle:hover{
+	color: blue;
+	text-decoration:none;
+}
+.blogPs{
+	float:left;
+	width:620px;
+	height:16px;
+	line-height:16px;
+	overflow: hidden;
+	font-size:12px;
+	padding:4px 0 0 12px;
+}
+.blogPs a{
+	color:orange;
+	text-decoration:none;
+}
+.blogPs a:hover{
+	text-decoration:underline;
+}
+.blogContent{
+	clear: left;
+	padding:10px 0 0 0;
+}
+p{
+	color: #666;
+	font-size:16px;
+}
+a.link{
+	color:#15bbf9;
+	font-size:16px;
+	text-decoration:none;
+}
+
+a.link:hover{
+	color:blue;
+}
+
+
+
+
+.sidebar{
+	float: right;
+	width:270px;
+}
+
+.sidebar dt{
+	display: block;
+	padding:5px 10px 5px 10px;
+	color:#fff;
+	font-size:24px;
+	
+	/* 绿色 */
+	background:#75ba45;
+	/* 蓝色 */
+	background:#15bbf9;
+	/* 桔色 */
+	background:#ffba00;
+	/* 黄色 */
+	background:#ffe14e;
+	
+
+
+}
+.sidebar dd{
+	padding:0px;
+	margin: 0 0 3px 0;
+	color:#666;
+	padding:0 5px 5px 5px;
+
+}
+
+
+.sidebar ul{
+	display: block;
+	padding:0px;
+	font-family:tahoma, 宋体;
+	font-size: 14px;
+
+}
+.sidebar li{
+	padding: 2px;
+	height:26px;
+	line-height:26px;
+	overflow: hidden;
+
+	list-style:none;
+}
+
+.sidebar a{
+
+	color:#888;
+	text-decoration:none;
+}
+.sidebar a:hover{
+
+	color:#15bbf9;
+	text-decoration:none;
 }
 
 
