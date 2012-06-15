@@ -2,7 +2,7 @@
 body{
 	margin:0;
 	padding:0;
-	font-family:'Segoe UI Light','Segoe UI','Segoe UI WP','Microsoft Jhenghei','微软雅黑',sans-serif;
+	font-family:Michroma,'Segoe UI Light','Segoe UI','Segoe UI WP','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
 	color:#333333;
 	/**/
@@ -283,43 +283,41 @@ body{
 	
 	list-style:none;
 }
-.nav li a{
+
+.nav li a:link,
+.nav li a:visited,
+.nav li a:active{
 	margin:0px 5px 0 0;
 	padding:5px 10px;
-	text-shadow:0 0 2px #aaa;
+	
 	color:#999;
+	text-shadow:0 0 2px #aaa;
 	text-decoration:none;
 
+	-webkit-transition: text-shadow 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-moz-transition: text-shadow 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-ms-transition: text-shadow 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-o-transition: text-shadow 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	transition: text-shadow 500ms ease-in 0ms, color 500ms ease-in 0ms;
+
 }
 
 
 
-
-.nav li a:hover{
+.nav li a:hover,
+.nav li a:focus{
+	color:#333;
+	text-shadow:0 0 1px #666,
+				0 0 2px #666;
 	
-	text-shadow:0 0 2px #666;
-		color:#333;
 
-	-webkit-animation-name: navAnimation;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count: 1;
+	-webkit-transition: text-shadow 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-moz-transition: text-shadow 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-ms-transition: text-shadow 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-o-transition: text-shadow 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	transition: text-shadow 250ms ease-in 0ms, color 250ms ease-in 0ms;
 }
 
-
-	
-}
-@-webkit-keyframes 'navAnimation' {
-	from {
-		text-shadow:0 0 2px #aaa;
-		color:#999;
-	
-	}
-	to {
-		text-shadow:0 0 2px #666;
-		color:#333;
-	}
-}
 
 
 .nav2{
@@ -346,6 +344,10 @@ body{
 	text-shadow:0 0 1px #aaa;
 }
 
+.body{
+	background:white;
+	overflow: hidden;
+}
 .menu{
 	float: left;
 	width:720px;
@@ -359,7 +361,7 @@ body{
 	padding: 15px;
 	
 	
-	background:rgba(255,255,255,0.7);
+	background:rgba(255,255,255,1);
 
 }
 
@@ -397,6 +399,8 @@ a.blogTitle:hover{
 	overflow: hidden;
 	font-size:12px;
 	padding:4px 0 0 12px;
+	font-family: Tahoma, "宋体", sans-serif;
+
 }
 .blogPs a{
 	color:orange;
@@ -410,8 +414,9 @@ a.blogTitle:hover{
 	padding:10px 0 0 0;
 }
 p{
-	color: #666;
-	font-size:16px;
+	color: #444;
+	font-size:14px;
+	font-family: Tahoma, "宋体", sans-serif;
 }
 a.link{
 	color:#15bbf9;
@@ -429,6 +434,7 @@ a.link:hover{
 .sidebar{
 	float: right;
 	width:270px;
+	background:white;
 }
 
 .sidebar dt{
@@ -445,6 +451,9 @@ a.link:hover{
 	background:#ffba00;
 	/* 黄色 */
 	background:#ffe14e;
+
+	/*blue*/
+	background:#4EA6EA;
 	
 
 
@@ -460,9 +469,10 @@ a.link:hover{
 
 .sidebar ul{
 	display: block;
-	padding:0px;
+	
 	font-family:tahoma, 宋体;
 	font-size: 14px;
+
 
 }
 .sidebar li{
@@ -470,13 +480,14 @@ a.link:hover{
 	height:26px;
 	line-height:26px;
 	overflow: hidden;
+	list-style: outside square;
 
-	list-style:none;
+	
 }
 
 .sidebar a{
 
-	color:#888;
+	color:#1982D1;
 	text-decoration:none;
 }
 .sidebar a:hover{
