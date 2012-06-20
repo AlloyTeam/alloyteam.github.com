@@ -31,6 +31,8 @@ http://alloyteam.github.com/DevelopmentCodes.doc
 	 |   |-- [styleNameB]	//皮肤B的文件夹
 	 |   |-- [styleNameC]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
+	 |--[audio]		//所有样式相关的audio音频文件
+	 |   |-- sound.mp3	//audio文件
  	 |-- index.html		//index文件
  	 |-- page1.html		//其他页面
  	 ...
