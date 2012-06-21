@@ -50,6 +50,9 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
 		<meta charset="utf-8" />
 		<meta name="author" content="Tencent.AlloyTeam.Jetyu" />
 		<meta name="copyright" content="Tencent.AlloyTeam" />
+		<meta name="keywords" content="腾讯 Alloy 团队" />
+		<meta name="description" content="Tencent.AlloyTeam" />
+		
 		<title>Tencent AlloyTeam 标准文档</title>
 		<link href="./style/main.css" rel="stylesheet" type="text/css" />
 	</head>
