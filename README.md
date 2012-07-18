@@ -31,6 +31,8 @@ http://alloyteam.github.com/DevelopmentCodes.doc
 	 |   |-- [styleNameB]	//皮肤B的文件夹
 	 |   |-- [styleNameC]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
+	 |--[audio]		//所有样式相关的audio音频文件
+	 |   |-- sound.mp3	//audio文件
  	 |-- index.html		//index文件
  	 |-- page1.html		//其他页面
  	 ...
@@ -48,6 +50,9 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
 		<meta charset="utf-8" />
 		<meta name="author" content="Tencent.AlloyTeam.Jetyu" />
 		<meta name="copyright" content="Tencent.AlloyTeam" />
+		<meta name="keywords" content="腾讯 Alloy 团队" />
+		<meta name="description" content="Tencent.AlloyTeam" />
+		
 		<title>Tencent AlloyTeam 标准文档</title>
 		<link href="./style/main.css" rel="stylesheet" type="text/css" />
 	</head>
