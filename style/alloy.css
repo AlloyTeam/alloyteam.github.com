@@ -345,6 +345,7 @@ body{
 }
 
 .body{
+	float:left;
 	background:white;
 	overflow: hidden;
 }
