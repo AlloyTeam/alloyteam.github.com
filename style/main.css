@@ -128,6 +128,14 @@ ul.workList{
 	transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
 }
 
+
+.new {
+	color:#FF0052;
+	font-size:12px;
+	margin:auto 0 0 10px;
+	vertical-align: super;
+}
+
 .copyright{
 	margin:50px 0 0 0;
 	height:50px;
