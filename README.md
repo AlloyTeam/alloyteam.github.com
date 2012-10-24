@@ -145,7 +145,7 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-393149-9']);
+	  _gaq.push(['_setAccount', 'UA-23019343-9']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
