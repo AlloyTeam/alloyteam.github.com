@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>P仔</title>
+
+	<style>
+		body{
+			font: 14px/1.8 Tahoma;
+		}
+	
+	</style>
+
+</head>
+
+<body>
+	P 仔<br />
+	<input type="text" length="4" id="year" value="2012"><br>
+	start M:<input type="text" length="2" id="start" value="11"><br>
+	end M:<input type="text" length="2" id="end" value="12"><br>
+	
+	<input type="button" onclick="listAllDatesBetweenTwoDates()" value="result">
+	<div id="result"></div>
+	
+	
+	<script>
+	  //将string转换为Date
+	  //str必须满足如下格式: 2008-04-29
+	  function convertString2Date(str)
+	  {
+	   //用户split分隔出数组,将包含3个元素:年,月,日
+	   var splitArray = str.split("-");
+	   
+	   // 用年,月,日构造日期对象
+	   // splitArray[0]-> year, splitArray[1]-> month, splitArray[2]->day
+	   // 这时要注意月份是从0开始的
+	   var date = new Date(splitArray[0], splitArray[1] - 1, splitArray[2]);
+	  
+	   return date;
+	  }
+
+	  // 得到date1和date2之间的间隔
+	  // date2要比date1大
+	  // date要满足如下格式: 2008-04-29
+	  //参数date1和date2类型应该是String或Date
+	  // 确保两种类型没有问题
+	  function getIntervalBetweenTwoDates(date1, date2)
+	  {
+	   var realDate1 = date1;
+	   var realDate2 = date2;
+	   
+	   // 如果date1是Date类型就不用转换
+	   if(!(date1 instanceof Date))
+	   {
+		realDate1 = convertString2Date(date1);
+	   }
+	   // 如果date2是Date类型就不用转换
+	   if(!(date2 instanceof Date))
+	   {
+		realDate2 = convertString2Date(date2);
+	   }
+	   
+	   //得到绝对值,(realDate2.getTime() - realDate1.getTime())返回的是毫秒所以要先除1000
+	   var interval = Math.abs((realDate2.getTime() - realDate1.getTime()))/(1000 * 60 * 60 * 24);
+	   
+	   return interval;
+	  }
+	  
+	  var $ = function(id){
+		return document.getElementById(id);
+	  
+	  }
+
+	  function listAllDatesBetweenTwoDates()
+	  {
+		var year = $("year").value;
+		var monthStart = $("start").value;
+	   var monthEnd = $("end").value;
+	   
+	   var date1 = year +"-"+ monthStart + "-01";
+	   var date2 = year +"-"+ monthEnd + "-31";
+	   var target = $("result");
+	   var interval = getIntervalBetweenTwoDates(date1,date2);
+	   // 转换string为Date
+	   date1 = convertString2Date(date1);   
+	   var year = date1.getFullYear();
+	   var month = date1.getMonth();
+	   var date = date1.getDate();
+	   --date;
+	   
+	   for(var i = 0 ; i <= interval ; ++i)
+	   {
+		++date;
+		
+		var theDate = new Date(year, month, date);
+		var tempYear = theDate.getFullYear();
+		var tempMonth = theDate.getMonth() + 1;
+		var tempDate = theDate.getDate();
+		var day = theDate.getDay();
+		var theDay = theDate.getTime()/1000/60/60/24;
+		var thatDay = new Date(2012, 09, 19).getTime()/1000/60/60/24;
+
+		var working = "";
+		
+		
+		if(0 == day || 6 == day) // non-working day
+		{
+		 working += "周末";
+		}
+		else
+		{
+		 working += "周 "+day;
+		}
+		
+		
+		if((theDay-thatDay)%3!=0) // non-working day
+		{
+		 working += "";
+		}
+		else
+		{
+		 working += " 【Working...】";
+		}
+		
+		
+		
+		
+		var theResult = tempYear + "-" + tempMonth + "-" + tempDate + ": " + working;
+		var div = document.createElement("div");
+		
+		div.innerHTML = theResult;
+		target.appendChild(div); 
+		
+	   }
+	  }
+		var start = function(){
+			
+			$("start").value = (new Date()).getMonth()+1;
+			$("end").value = Number($("start").value)+2;
+			listAllDatesBetweenTwoDates();
+		};
+		
+		start();
+	</script>
+</body>
+</html>
