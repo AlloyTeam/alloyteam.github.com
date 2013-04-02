@@ -137,6 +137,10 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
   	<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">Tencent AlloyTeam</a>. All Rights Reserved.</div>
 
 
+### 标准捐赠代码
+
+	 <a href='http://me.alipay.com/kinvix'> <img src='https://img.alipay.com/sys/personalprod/style/mc/btn-index.png' /> </a>
+
 ### 标准访问统计代码
 
 	<!--Tencent Analytics-->
