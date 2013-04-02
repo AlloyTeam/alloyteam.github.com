@@ -63,12 +63,37 @@ body{
 		opacity:0.1;
 	}
 }
-.helpus{
-	width:300;
-	text-align:center;
+a.helpus{
+	display:block;
 	margin: 20px auto;
 	
+	text-indent: -999em;
+	background: url(./image/alipay_btn.jpg) no-repeat 6px 3px #fff;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	
+	-webkit-transition: border 500ms ease-in 0ms;
+	-moz-transition: border 500ms ease-in 0ms;
+	-ms-transition: border 500ms ease-in 0ms;
+	-o-transition: border 500ms ease-in 0ms;
+	transition: border 500ms ease-in 0ms;
+	
 }
+a.helpus:hover {
+	border: 1px solid #0f87d3;
+	-webkit-transition: border 300ms ease-in 0ms;
+	-moz-transition: border 300ms ease-in 0ms;
+	-ms-transition: border 300ms ease-in 0ms;
+	-o-transition: border 300ms ease-in 0ms;
+	transition: border 300ms ease-in 0ms;
+}
+
 .workListBoard{
 	width:500px;
 	min-height:300px;
