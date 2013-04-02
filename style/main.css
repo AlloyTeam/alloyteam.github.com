@@ -63,7 +63,12 @@ body{
 		opacity:0.1;
 	}
 }
-
+.helpus{
+	width:300;
+	text-align:center;
+	margin: 20px auto;
+	
+}
 .workListBoard{
 	width:500px;
 	min-height:300px;
