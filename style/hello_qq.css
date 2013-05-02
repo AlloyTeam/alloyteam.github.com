@@ -15,8 +15,8 @@ body{
 	
 }
 .hello{
-	margin:100px auto;
-	padding:50px;
+	margin:100px auto 0 auto;
+	padding:50px 0 0 0;
 	height:160px;
 	background:rgb(221, 245, 255);
 	overflow:hidden;
@@ -54,7 +54,13 @@ body{
 }
 
 
-
+.showText{
+	display:block;
+	text-align:center;
+	padding:0 0 50px;
+	margin:auto;
+	background:rgb(221, 245, 255);
+}
 
 
 .copyright{
