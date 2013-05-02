@@ -1,0 +1,78 @@
+body{
+	font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+	font-size: 20px;
+	color:#333333;
+	margin:0;
+	padding:0;
+}
+.title{
+	font-size: 50px;
+	text-align:center;
+	color:#666666;
+	font-weight:normal;
+	margin:50px 0 0 0;
+	
+	
+}
+.hello{
+	margin:100px auto;
+	padding:50px;
+	height:160px;
+	background:rgb(221, 245, 255);
+	overflow:hidden;
+}
+.titleBoard{
+	display:block;
+	position:relative;
+	top:-135px;	
+	margin:0px auto;
+}
+
+.helloQQ {
+	display:block;
+	position:relative;
+	left:50px;
+	margin:0px auto;
+	padding:0 0 50px 0;
+
+	-webkit-animation-name: helloQQ;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'helloQQ' {
+	from {
+		-webkit-transform:rotate(-30deg)
+	}
+	50% {
+		-webkit-transform:rotate(30deg)
+	}
+	to {
+		-webkit-transform:rotate(-30deg)
+	}
+}
+
+
+
+
+
+.copyright{
+	margin:50px 0 0 0;
+	height:50px;
+	color:#999999;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+.copyright a{
+	color:#999999;
+	text-decoration:none;
+}
+
+.copyright a:hover,
+.copyright a:focus{
+	outline:none;
+	text-decoration:underline;
+}
