@@ -144,7 +144,7 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
 ### 标准访问统计代码
 
 	<!--Tencent Analytics-->
-	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=8957212" charset="UTF-8"></script>
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=24711241" charset="UTF-8"></script>
 	<!--Google Analytics-->
 	<script type="text/javascript">
 
