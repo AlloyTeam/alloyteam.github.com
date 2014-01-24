@@ -15,7 +15,7 @@
         var getLastDay = function(time){
             var now = new Date();
             var lastTime = time.getTime() - now.getTime();    
-            var lastDay = Math.floor(lastTime / (1000 * 60 * 60 * 24));    
+            var lastDay = Math.ceil(lastTime / (1000 * 60 * 60 * 24));    
             if (lastDay < 0){
                 lastDay = 0;
             }
