@@ -139,6 +139,8 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
 
 ### 标准捐赠代码
 
+	 <a href="http://me.alipay.com/kinvix" target="helpus" title="支持开源项目，请我们喝杯咖啡吧^_Q"> <img src="http://alloyteam.github.io/style/image/alipay_btn.jpg" alt="支持开源项目，请我们喝杯咖啡吧^_Q" /> </a>
+	 
 	 <a href="http://me.alipay.com/kinvix" target="helpus" title="感谢支持开源项目，我们会努力做的更好！"> <img src="http://alloyteam.github.io/style/image/alipay_btn.jpg" alt="捐赠开源项目" /> </a>
 
 ### 标准访问统计代码
