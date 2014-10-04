@@ -54,7 +54,7 @@
 </div>
 <div class="section toc">
     <div class="col">
-        <h4><a href="#html">Naming Project</a></h4>
+        <h4><a href="#html">命名规则</a></h4>
         <ul>
             <li><a href="#project-naming">项目名</a></li>
             <li><a href="#folder-naming">目录名</a></li>
@@ -68,10 +68,9 @@
         <ul>
             <li><a href="#html-syntax">语法</a></li>
             <li><a href="#html-doctype">HTML5 doctype</a></li>
-            <li><a href="#html-lang">Language attribute</a></li>
+            <li><a href="#html-lang">语言属性</a></li>
             <li><a href="#html-encoding">字符编码</a></li>
-            <li><a href="#html-ie-compatibility-mode">Internet Explorer
-                compatibility mode</a></li>
+            <li><a href="#html-ie-compatibility-mode">IE 兼容模式</a></li>
             <li><a href="#html-style-script">引入 CSS 和 JavaScript</a></li>
             <li><a href="#html-practicality">实用高于完美</a></li>
             <li><a href="#html-attribute-order">属性顺序</a></li>
@@ -85,11 +84,10 @@
         <ul>
             <li><a href="#css-syntax">CSS 语法</a></li>
             <li><a href="#css-declaration-order">声明顺序</a></li>
-            <li><a href="#css-import">Don't use @import</a></li>
-            <li><a href="#css-media-queries">Media query placement</a></li>
+            <li><a href="#css-import">不要使用 @import</a></li>
+            <li><a href="#css-media-queries">Media query 的位置</a></li>
             <li><a href="#css-prefixed-properties">前缀属性</a></li>
-            <li><a href="#css-single-declarations">Rules with single
-                declarations</a></li>
+            <li><a href="#css-single-declarations">单行声明的规则</a></li>
             <li><a href="#css-shorthand">属性简写</a></li>
             <li><a href="#css-nesting">LESS 和 SASS 中的嵌套</a></li>
             <li><a href="#css-comments">代码注释</a></li>
@@ -101,14 +99,14 @@
     <div class="col">
         <h4><a href="#javascript">JavaScript</a></h4>
         <ul>
-            <li><a href="#js-indentation">Indentation,分号,单行长度</a></li>
+            <li><a href="#js-indentation">缩进,分号,单行长度</a></li>
             <li><a href="#js-blank-lines">空行</a></li>
             <li><a href="#js-variable-naming">变量命名</a></li>
             <li><a href="#js-literal-value-string">字符常量</a></li>
             <li><a href="#js-literal-value-null">null使用场景</a></li>
             <li><a href="#js-literal-value-undefined">undefined使用场景</a></li>
-            <li><a href="#js-literal-value-object">Object Literals</a></li>
-            <li><a href="#js-literal-value-array">Array Literals</a></li>
+            <li><a href="#js-literal-value-object">Object 的声明</a></li>
+            <li><a href="#js-literal-value-array">Array 的声明</a></li>
             <li><a href="#js-comments-single-line">单行注释</a></li>
             <li><a href="#js-comments-multiline">多行注释</a></li>
             <li><a href="#js-comments-documentation">文档注释</a></li>
@@ -126,12 +124,12 @@
 
 <div class="section" id="golden-rule">
   <div class="col">
-    <h2>Golden rule</h2>
-    <p>Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/materliu/code-guide/issues/new">open an issue on GitHub</a>.</p>
+    <h2>最佳原则</h2>
+    <p>坚持这些原则。无论多少，找出不对的地方。如果你想要为这个编码指导做贡献，请访问<a href="https://github.com/materliu/code-guide/issues/new">新开一个issue</a>.</p>
   </div>
   <div class="col">
     <blockquote>
-      <p>Every line of code should appear to be written by a single person, no matter the number of contributors.</p>
+      <p>无论人数多少，代码都应该同出一门。</p>
     </blockquote>
   </div>
 </div>
@@ -222,13 +220,13 @@
 
 <div class="section" id="html-lang">
   <div class="col">
-    <h3>Language attribute</h3>
-    <p>From the HTML5 spec:</p>
+    <h3>语言属性</h3>
+    <p>针对HTML5 :</p>
     <blockquote>
-      <p>Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.</p>
+      <p>作者应在html的跟元素上加上这个文件的语言。这会给语音工具和翻译工具帮助，告诉它们应当怎么去发音和翻译。</p>
     </blockquote>
-    <p>Read more about the <code>lang</code> attribute <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in the spec</a>.</p>
-    <p>Head to Sitepoint for a <a href="http://reference.sitepoint.com/html/lang-codes">list of language codes</a>.</p>
+    <p>阅读更多有关 <code>lang</code> 属性 <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">在这个文章中</a>.</p>
+    <p>通过Sitepoint 得到一个<a href="http://reference.sitepoint.com/html/lang-codes">语言代码列表</a>.</p>
     <p>Sitepoint只是给出了语言代码的大类，比如说中文就只给出了ZH，但是没有区分香港，台湾，大陆等。而微软给出的一份细分了zh-cn,zh-hk,zh-tw, Head to Microsoft for a <a href="http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx">detail list of language codes</a>.</p>
   </div>
   <div class="col">
@@ -241,9 +239,9 @@
 
 <div class="section" id="html-ie-compatibility-mode">
   <div class="col">
-    <h3>IE compatibility mode</h3>
-    <p>Internet Explorer supports the use of a document compatibility <code>&lt;meta&gt;</code> tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with <strong>edge mode</strong>.</p>
-    <p>For more information, <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">read this awesome Stack Overflow article</a>.</p>
+    <h3>IE 兼容模式</h3>
+    <p>Internet Explorer 支持使用一个文档属性标签 <code>&lt;meta&gt;</code> 来指出这个页面应当支持的IE的版本。除非另有规定，最好用最新的支持的模式。</p>
+    <p>更多信息, <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">阅读这个 Stack Overflow 文章</a>.</p>
       <p>不同doctype在不同浏览器下的不同渲染模式，诡异模式<a
           href="https://hsivonen.fi/doctype/">总结的很到位</a>.</p>
   </div>
@@ -627,14 +625,14 @@
 
 <div class="section" id="css-import">
   <div class="col">
-    <h3>Don't use <code>@import</code></h3>
-    <p>Compared to <code>&lt;link&gt;</code>s, <code>@import</code> is slower, adds extra page requests, and can cause other unforeseen problems. Avoid them and instead opt for an alternate approach:</p>
+    <h3>不要使用 <code>@import</code></h3>
+    <p>与 <code>&lt;link&gt;</code>标签相比, <code>@import</code> 更慢, 增加了额外的页面请求，可能还会导致不可预见的问题。避免使用它们，改用以下的方法:</p>
     <ul>
-      <li>Use multiple <code>&lt;link&gt;</code> elements</li>
-      <li>Compile your CSS with a preprocessor like Sass or Less into a single file</li>
-      <li>Concatenate your CSS files with features provided in Rails, Jekyll, and other environments</li>
+      <li>多用几个 <code>&lt;link&gt;</code> 标签</li>
+      <li>将你的css编译到一个文件里</li>
+      <li>用Rails, Jekyll,以及其他环境提供的特性来间接这些css</li>
     </ul>
-    <p>For more information, <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">read this article by Steve Souders</a>.</p>
+    <p>更多信息, <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">阅读 Steve Souders 的文章</a>.</p>
   </div>
   <div class="col">
     <div class="highlight"><pre><code class="html"><span class="c">&lt;!-- Use link elements --&gt;</span>
@@ -893,10 +891,10 @@
 
 <div class="section" id="js-indentation">
     <div class="col">
-        <h3>Indentation,分号,单行长度</h3>
+        <h3>缩进,分号,单行长度</h3>
         <ul>
             <li>一律使用4个空格</li>
-            <li>continuation-indentation 同样适用4个空格，跟上一行对齐</li>
+            <li>连续缩进 同样适用4个空格，跟上一行对齐</li>
             <li>Statement 之后一律以分号结束， 不可以省略</li>
             <li>单行长度，理论上不要超过80列，不过如果编辑器开启 soft wrap 的话可以不考虑单行长度</li>
             <li>接上一条，如果需要换行，存在操作符的情况，一定在操作符后换行，然后换的行缩进4个空格</li>
@@ -970,15 +968,15 @@
     <div class="col">
         <h3>null的使用场景</h3>
         <ul>
-            <li>To initialize a variable that may later be assigned an object value</li>
-            <li>To compare against an initialized variable that may or may not have an object value</li>
-            <li>To pass into a function where an object is expected</li>
-            <li>To return from a function where an object is expected</li>
+            <li>初始化一个将来可能被声明为一个对象的变量。</li>
+            <li>与一个可能是对象或者非对象的初始化变量相比。</li>
+            <li>传入一个对象待定的函数。</li>
+            <li>作为一个对象待定的函数的返回值。</li>
         </ul>
         <h3>不适合null的使用场景</h3>
         <ul>
-            <li>Do not use null to test whether an argument was supplied</li>
-            <li>Do not test an uninitialized variable for the value null</li>
+            <li>不要使用null来测试一个一个变量是否存在。</li>
+            <li>不要用null来测试一个没声明的变量。</li>
         </ul>
     </div>
 </div>
@@ -1089,9 +1087,9 @@
         </ul>
         <h3>用在哪里</h3>
         <ul>
-            <li>All methods</li>
-            <li>All constructors</li>
-            <li>All objects with documented methods</li>
+            <li>所有的方法</li>
+            <li>所有的构造函数</li>
+            <li>所有的全局变量</li>
         </ul>
     </div>
     <div class="col">
