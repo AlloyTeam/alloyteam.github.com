@@ -24,12 +24,12 @@ http://alloyteam.github.io/code-guide/
 	 |   |-- [image]	//主要image文件夹
 	 |   |    |-- img1.png
 	 |   |    ...
-	 |   |-- [styleNameA]	//皮肤A的文件夹
+	 |   |-- [style-name-a]	//皮肤A的文件夹
 	 |   |    |-- [image]	//皮肤A的image
-	 |   |    |-- styleNameA.css	//皮肤A的css文件
+	 |   |    |-- style-name-a.css	//皮肤A的css文件
 	 |   |    ...
-	 |   |-- [styleNameB]	//皮肤B的文件夹
-	 |   |-- [styleNameC]	//皮肤C的文件夹
+	 |   |-- [style-name-b]	//皮肤B的文件夹
+	 |   |-- [style-name-c]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
 	 |--[audio]		//所有样式相关的audio音频文件
 	 |   |-- sound.mp3	//audio文件
@@ -38,7 +38,7 @@ http://alloyteam.github.io/code-guide/
  	 ...
 	  
 	  
-ps：文件名全部英文小写，尽量不要加复数s，必要时可以使用下划线“_”。
+ps：文件名全部英文小写，尽量不要加复数s，必要时可以使用中划线“-”。
 
 	  
 	  
