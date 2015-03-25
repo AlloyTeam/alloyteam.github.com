@@ -173,7 +173,7 @@ ps：文件名全部英文小写，尽量不要加复数s，必要时可以使�
     qq : 1838456721,
     site : "http://www.alloyteam.com/",
     github : "http://alloyteam.github.io/",
-    coding : "http://www.coding.net/"
+    coding : "http://www.coding.net/alloyteam/"
   }
   
 ```
