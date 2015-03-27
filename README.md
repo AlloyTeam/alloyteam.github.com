@@ -24,12 +24,12 @@ http://alloyteam.github.io/code-guide/
 	 |   |-- [image]	//主要image文件夹
 	 |   |    |-- img1.png
 	 |   |    ...
-	 |   |-- [style-name-a]	//皮肤A的文件夹
+	 |   |-- [style_name_a]	//皮肤A的文件夹
 	 |   |    |-- [image]	//皮肤A的image
-	 |   |    |-- style-name-a.css	//皮肤A的css文件
+	 |   |    |-- style_name_a.css	//皮肤A的css文件
 	 |   |    ...
-	 |   |-- [style-name-b]	//皮肤B的文件夹
-	 |   |-- [style-name-c]	//皮肤C的文件夹
+	 |   |-- [style_name_b]	//皮肤B的文件夹
+	 |   |-- [style_name_c]	//皮肤C的文件夹
 	 |   |-- main.css	//主要css文件
 	 |--[audio]		//所有样式相关的audio音频文件
 	 |   |-- sound.mp3	//audio文件
