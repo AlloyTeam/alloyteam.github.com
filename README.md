@@ -6,7 +6,7 @@ By [Tencent AlloyTeam](http://www.AlloyTeam.com/)
 
 ## 我们的愿景
 
-成为宇宙卓越的Web团队！
+成为业界卓越的Web团队！
 
 
 ## 团队部分代码规范
