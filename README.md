@@ -138,7 +138,7 @@ http://alloyteam.github.io/CodeGuide/
 
 ### 标准版权声明代码
 
-  	<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">Tencent AlloyTeam</a>. All Rights Reserved.</div>
+  	<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">AlloyTeam.com</a>. All Rights Reserved.</div>
 
 
 ### 标准捐赠代码
