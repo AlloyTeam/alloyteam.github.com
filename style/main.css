@@ -94,6 +94,60 @@ a.helpus:hover {
 	transition: border 300ms ease-in 0ms;
 }
 
+
+a.helpus2{
+	display:block;
+	margin: 20px auto;
+	text-decoration:none;
+	color:#666;
+	font-size:16px;
+	line-height:2;
+	
+	background: url(./image/paybutton.png) no-repeat center  #fff;
+	background-size:cover;
+	width: 260px;
+	height: 80px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 10px;
+	
+	-webkit-transition: border 500ms ease-in 0ms;
+	-moz-transition: border 500ms ease-in 0ms;
+	-ms-transition: border 500ms ease-in 0ms;
+	-o-transition: border 500ms ease-in 0ms;
+	transition: border 500ms ease-in 0ms;
+	
+}
+a.helpus2:hover {
+	border: 1px solid orange;
+	-webkit-transition: border 300ms ease-in 0ms;
+	-moz-transition: border 300ms ease-in 0ms;
+	-ms-transition: border 300ms ease-in 0ms;
+	-o-transition: border 300ms ease-in 0ms;
+	transition: border 300ms ease-in 0ms;
+}
+a.helpus2 .paycode{
+	display:none;
+	position:relative;
+	margin:-55% -78%;
+	padding:20px;
+	width:626px;
+	text-align:center;
+	box-shadow:5px 5px 40px rgba(0,0,0,0.5);
+	background:white;
+	overflow:hidden;
+	
+}
+
+a.helpus2:hover .paycode{
+	display:block;
+	
+	
+}
+
 .workListBoard{
 	width:500px;
 	min-height:300px;
