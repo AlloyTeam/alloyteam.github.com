@@ -107,6 +107,13 @@ a.helpus:hover {
 	color:#999999;
 
 }
+.workListBoard h5{
+	font-size: 18px;
+	font-weight: normal;
+	text-align:center;
+	color:#999999;
+
+}
 ul.workList{
 	
 	padding:0;
