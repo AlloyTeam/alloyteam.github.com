@@ -95,7 +95,7 @@ a.helpus:hover {
 }
 
 
-a.helpus2{
+.helpus2{
 	display:block;
 	margin: 20px auto;
 	text-decoration:none;
@@ -121,7 +121,7 @@ a.helpus2{
 	transition: border 500ms ease-in 0ms;
 	
 }
-a.helpus2:hover {
+.helpus2:hover {
 	border: 1px solid orange;
 	-webkit-transition: border 300ms ease-in 0ms;
 	-moz-transition: border 300ms ease-in 0ms;
@@ -129,7 +129,7 @@ a.helpus2:hover {
 	-o-transition: border 300ms ease-in 0ms;
 	transition: border 300ms ease-in 0ms;
 }
-a.helpus2 .paycode{
+.helpus2 .paycode{
 	display:none;
 	position:relative;
 	margin:-55% -78%;
@@ -142,7 +142,7 @@ a.helpus2 .paycode{
 	
 }
 
-a.helpus2:hover .paycode{
+.helpus2:hover .paycode{
 	display:block;
 	
 	
