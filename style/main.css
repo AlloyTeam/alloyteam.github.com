@@ -52,7 +52,7 @@ body{
 	-webkit-animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes 'breath' {
+@-webkit-keyframes breath {
 	from {
 		opacity:0.1;
 	}

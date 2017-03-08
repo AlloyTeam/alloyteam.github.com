@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no">
+    <meta name="author" content="Tencent.AlloyTeam.Jetyu" />
+    <meta name="copyright" content="Tencent.AlloyTeam" />
+    <meta name="keyword" content="腾讯 Web 前端团队 - AlloyTeam, 腾讯Web前端大会" />
+    <title>腾讯 Web 前端团队 - AlloyTeam</title>
+    <style>
+        html{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+            font-size: 20px;
+            color:#333333;
+        }
+        .title{
+            font-size: 50px;
+            text-align:center;
+            color:#666666;
+            margin:20px 0 0 0;
+
+        }
+        .logo{
+            display:block;
+            margin:10px auto;
+            width:92px;
+            height:101px;
+
+            overflow:hidden;
+        }
+
+        .breath {
+            text-indent:-999em;
+            height:4px;
+            line-height: 4px;
+            width: 50px;
+            overflow:hidden;
+
+            margin: 10px auto;
+            background: #99dd33;
+
+            opacity:0.1;
+            -webkit-box-shadow: 0 0 5px #f1f1f1;
+            -moz-box-shadow: 0 0 5px #f1f1f1;
+            -ms-box-shadow: 0 0 5px #f1f1f1;
+            -o-box-shadow: 0 0 5px #f1f1f1;
+            box-shadow: 0 0 5px #f1f1f1;
+            -webkit-border-radius:2px;
+            -moz-border-radius:2px;
+            -ms-border-radius:2px;
+            -o-border-radius:2px;
+            border-radius:2px;
+            color: #fff;
+
+            -webkit-animation-name: breath;
+            -webkit-animation-duration: 6s;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+        }
+
+        @-webkit-keyframes breath {
+            from {
+                opacity:0.1;
+            }
+            50% {
+                opacity:1;
+            }
+            to {
+                opacity:0.1;
+            }
+        }
+
+
+        .paycode{
+            text-align: center;
+        }
+        .copyright{
+            margin:50px 0 0 0;
+            height:50px;
+            color:#999999;
+            font-family:Tahoma;
+            font-size: 12px;
+            text-align:center;
+        }
+
+        .copyright a{
+            color:#999999;
+            text-decoration:none;
+        }
+
+        .copyright a:hover,
+        .copyright a:focus{
+            outline:none;
+            text-decoration:underline;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .title{
+                font-size: 30px;
+
+            }
+            .paycode img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Tencent AlloyTeam <script>document.write(new Date().getFullYear());</script></div>
+    <img class="logo" src="./style/image/alloy.png" />
+    <div class="breath" title="One Team, One Dream! ">light</div>
+    <div class="paycode">
+        <img src="./style/image/wechatpaycode.png" />
+        <img src="./style/image/alipaycode.png" />
+        <div>如果你觉得我们<a href="http://www.alloyteam.com/">AlloyTeam</a>团队的博客和开源项目给你带来价值，可以通过捐赏支持我们<br />有你的支持，我们会做得更好！</div>
+    </div>
+    <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.AlloyTeam.com/" target="_blank">AlloyTeam.com</a>. All Rights Reserved.</div>
+
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=40373280" charset="UTF-8"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-23019343-9']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</body>
+</html>
