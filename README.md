@@ -18,6 +18,15 @@ http://alloyteam.github.io/CodeGuide/
 ### 标准文件结构
 
 	[mainfolder]
+	 |--[component]		  //所有组件	
+ 	 |   |-- [component_name] //组件文件夹
+	 |   |    |-- img1.png    //组件依赖的图片
+	 |   |    |-- index.css	  //组件依赖的css文件
+	 |   |    |-- index.js	  //组件依赖的js文件
+	 |   |-- [component_name] //组件文件夹
+	 |   |    ...
+	 |   |    |-- index.css	  //组件依赖的css文件
+	 |   |    |-- index.js	  //组件依赖的js文件
 	 |--[js]		//js文件夹
 	 |   |-- main.js
 	 |--[style]		//所有样式相关的css和image
