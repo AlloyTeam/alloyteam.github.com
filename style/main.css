@@ -11,7 +11,7 @@ body{
 	font-size: 50px;
 	text-align:center;
 	color:#666666;
-	margin:50px 0 0 0;
+	margin:15px 0 0 0;
 	
 }
 .logo{
@@ -178,6 +178,13 @@ ul.workList{
 	
 }
 
+h3{
+	margin:14px;
+}
+
+h5{
+	margin:12px;
+}
 
 .workList a:link,
 .workList a:visited,
