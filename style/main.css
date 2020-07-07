@@ -6,6 +6,7 @@ body{
 	font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
 	color:#333333;
+	-webkit-font-smoothing:antialiased;
 }
 .title{
 	font-size: 50px;
