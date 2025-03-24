@@ -1,0 +1,29 @@
+const { Wallet, Accounts } = require('metamask-sdk');
+
+
+
+
+
+// Create a new Metamask wallet
+
+
+
+async function createWallet() {
+
+
+
+  const accounts = await Accounts.create();
+
+
+
+  console.log(accounts);
+
+
+
+}
+
+
+
+
+
+createWallet();
